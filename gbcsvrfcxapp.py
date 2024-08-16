@@ -65,7 +65,7 @@ v21=v20
 weather_api_endpoint = "http://api.openweathermap.org/data/2.5/weather"
 api_key = "8af1a752ec6e57631f899729ded7eba5"  # Replace this with your actual OpenWeatherMap API key
 
-params = {'q':  get_location(),
+params = {'q':  SITE_LOCATION_OF_THE_UNIT,
             'appid': api_key,
             'units': 'metric'  }
 response = requests.get(weather_api_endpoint, params=params)
