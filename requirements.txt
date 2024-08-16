@@ -1,0 +1,7 @@
+psychrolib
+requests
+numpy
+pandas
+matplotlib
+jinja2
+os
