@@ -12,7 +12,7 @@ st.image("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhUIBwg
 st.title("VRF COMMISSIONING REPORT GENERATOR")
 
 env = Environment(loader=FileSystemLoader("."), autoescape=select_autoescape())
-template = env.get_template("temp.html")
+template = env.get_template("new.html")
 
 form = st.form("template_form")
 
